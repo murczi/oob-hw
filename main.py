@@ -14,3 +14,9 @@ class Ketagyasszoba(Szoba):
     def __init__(self):
         self.ar = 20
         self.szobaszam = 2
+
+
+class Szalloda:
+    def __init__(self, nev):
+        self.nev = nev
+        self.szobak = [Ketagyasszoba, Egyagyasszoba]
