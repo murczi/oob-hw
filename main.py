@@ -12,5 +12,5 @@ class Egyagyasszoba(Szoba):
 
 class Ketagyasszoba(Szoba):
     def __init__(self):
-        self.ar = 10
-        self.szobaszam = 1
+        self.ar = 20
+        self.szobaszam = 2
